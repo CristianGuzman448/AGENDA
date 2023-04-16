@@ -29,7 +29,7 @@ if (isset($_GET['id']) && !empty($_GET['id'])){
                 <?php
                 while($pt = mysqli_fetch_object($data)){
                     $date  = $pt->fecha;
-                    echo "<div class= 'col'>";  
+                    echo "<div class= 'col-6'>";  
                         echo "<div class='border border-info p-2'>";
                             echo "<h5><img src='".ROOT."/images/$pt->brochure' width='50' height='50'/> $pt->empresa | $pt->asesor  </h5>";
                             echo "<p> <b>Fecha:</b> ". date('D', strtotime($date)) ." ". date('d-M-Y H:i', strtotime($date) ) ."</p>";

@@ -1,0 +1,137 @@
+body{
+    font-family: 'Sono', sans-serif;/* fuente */
+    max-width: 900px;/* limita ancho de la pagina */
+    margin: 0 auto ;/* pone margenes laterales */
+    background-color: rgb(203, 225, 251);/* inserta color de fondo a la pagina */
+}
+nav{
+    width: 100%;/* ancho */
+    height: 110px;
+    background-color: rgb(255, 255, 255);/* colo fondo barra navegacion */
+
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    padding: 18px 20px;
+
+}
+
+nav ul li:hover{/* cuadno este sobre el elemento seceda algo */
+    background-color: rgb(245, 7, 7);
+}
+.img-logo{
+    width: 180px; /* ancho */
+    padding: 20px;
+}
+nav ul{
+    display: inline-flex;
+    position: relative;
+    top:    0px;
+    /*padding-top: 90px; relleno 
+    display: inline-flex;*/
+}
+nav ul li a{
+    text-decoration: none;/* decoracion de texto ningino */
+    color: #080c74;/* color de letra negro */
+}
+
+h2, figure, ul{
+    margin: 0%;
+}
+img{
+    max-width: 100%;
+}
+/* estilos seccion 1 */
+.seccion1{
+    background-color:  rgb(218, 226, 255);
+}
+
+.video{
+width: 55%;
+padding: 15px;
+display: inline-flex;
+position: relative;
+top:    70px;
+}
+
+
+.texto{
+    width: 40%;
+    padding: 25px;
+    vertical-align: top;
+}
+
+
+article{
+padding: 30px;
+background-color: rgb(218, 226, 255);
+
+}
+
+article h2{
+    border-bottom: 1px solid black;
+}
+.texto, .video{
+    display: inline-block;
+}
+
+
+.boton{
+    text-align: center;/* alinear texto */
+    background-color: rgb(19, 41, 180);
+    padding: 10px;
+}
+.boton a{
+    text-decoration: none;
+    color: white;
+
+}
+.boton:hover{
+
+    background: rgb(212, 2, 2); /* color boton */
+}
+
+section h2{
+    border-bottom: 1px solid black;
+}
+
+
+
+/* articulos */
+
+.seccion2{
+    background-color: #73bef3;
+    padding: 15px;
+    text-align: center;
+}
+.img-art{
+max-width: 100%;
+}
+.cont-art{
+    width: 100%;
+    vertical-align: top;
+    
+}
+
+
+footer{
+text-align: left;
+background-color: rgb(19, 41, 180);
+color: antiquewhite;
+line-height: 20px;
+padding: 20px;
+}
+footer div a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.pieredes{
+text-align: center;
+}
+.marca {
+    text-align: center;/* alinear texto */
+    background-color: rgb(19, 41, 180);
+
+}
